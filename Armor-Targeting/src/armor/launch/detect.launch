@@ -1,0 +1,8 @@
+<launch> 
+<group ns="serial_com_test"> 
+    <node pkg="serial_com" name="stm_com" type="stm_com"
+        output="screen" respawn="true"/>  
+    <node pkg="armor" name="ArmorDetect" type="ArmorDetect"
+        output="screen" respawn="true"/>
+</group> 
+</launch>

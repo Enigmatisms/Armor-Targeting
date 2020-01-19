@@ -1,0 +1,8 @@
+prefix=/home/sentinel/ROSWorkspace/cvProject/devel
+
+Name: armor
+Description: Description of armor
+Version: 0.0.0
+Cflags: -I/home/sentinel/ROSWorkspace/cvProject/src/armor/include
+Libs: -L/home/sentinel/ROSWorkspace/cvProject/devel/lib -larmor
+Requires: 

@@ -1,0 +1,8 @@
+<launch> 
+<group ns="serial_com_test"> 
+    <node pkg="armor" name="HPGrabbing" type="HPGrabbing"
+        output="screen" respawn="false"/>  
+    <node pkg="armor" name="test_frame" type="test_frame"
+        output="screen" respawn="false"/>
+</group> 
+</launch>

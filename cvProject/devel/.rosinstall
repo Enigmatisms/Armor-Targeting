@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/sentinel/ROSWorkspace/cvProject/devel/setup.sh
